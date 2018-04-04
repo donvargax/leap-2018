@@ -1,0 +1,7 @@
+checkout random branch
+if lockfile update lockfile first with `yarn upgrade --ignore-scripts --ignore-engines --ignore-platform`
+commit yarn.lock only
+update dependencies one by one
+commit package.json and yarn.lock
+create pull request
+success
