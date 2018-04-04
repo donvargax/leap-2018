@@ -19,8 +19,8 @@
   "typings": "lib/index.d.ts",
   "scripts": {
     "clean": "rimraf lib && rimraf coverage",
-    "format": "prettier --write \"{src,__tests__}/**/*.ts\" --single-quote --trailing-comma es5",
-    "lint": "tslint --force --format verbose \"src/**/*.ts\"",
+    "format": "prettier --write \"{src,__tests__}/**/*.{ts,tsx}\" --trailing-comma all",
+    "lint": "tslint --force --format verbose \"src/**/*.{ts,tsx}\"",
     "prepublishOnly": "yon run build",
     "prebuild": "yon run clean && yon run format && yon run lint && echo Using TypeScript && tsc --version",
     "build": "tsc --pretty",

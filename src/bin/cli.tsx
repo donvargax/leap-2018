@@ -1,5 +1,11 @@
-import {h, renderToString} from "ink"
+import { h, renderToString } from "ink";
 
-import {Green} from "../lib/green"
+import { Green } from "../lib/green";
 
-process.stdout.write(renderToString(<Green>Hola<br /></Green>))
+process.stdout.write(
+  renderToString(
+    <Green>
+      Hola<br />
+    </Green>,
+  ),
+);

@@ -1,4 +1,11 @@
-import {h, Text} from "ink"
+import { h, Text } from "ink";
 
-export const Green = ({children}: {children: (string | (string | Element)[])}) =>
-  <Text green>{children}</Text>;
+import * as react from "react";
+
+export interface GreenProps {
+  children: string | Array<string | Element>;
+}
+
+export const Green = ({ children }: GreenProps) => (
+  <Text green>{children}</Text>
+);

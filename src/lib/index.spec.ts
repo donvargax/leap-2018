@@ -1,5 +1,5 @@
-import * as index from './index';
+import * as index from "./index";
 
-test('Should have Greeter available', () => {
+test("Should have Greeter available", () => {
   expect(index.Greeter).toBeTruthy();
 });
