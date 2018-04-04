@@ -30,9 +30,11 @@
     "watch:test": "jest --watch"
   },
   "dependencies": {
+    "cosmiconfig": "^4.0.0",
     "ink": "^0.4.1"
   },
   "devDependencies": {
+    "@types/cosmiconfig": "^4.0.0",
     "@types/jest": "^22.0.1",
     "@types/node": "^8.0.0",
     "@types/react": "^16.3.5",
