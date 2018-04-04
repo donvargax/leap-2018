@@ -8,12 +8,16 @@
     ],
     "target": "es2015",
     "strict": true,
-    "outDir": "./lib",
+    "rootDir": "./src",
+    "outDir": "./dist",
     "preserveConstEnums": true,
     "removeComments": true,
     "inlineSourceMap": true,
+    "jsx": "react",
+    "jsxFactory": "h",
     "typeRoots": [
-      "./node_modules/@types"
+      "./node_modules/@types",
+      "./custom_typings"
     ]
   },
   "include": [
